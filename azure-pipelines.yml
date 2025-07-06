@@ -16,7 +16,7 @@ steps:
     verbose: false
 
 - script: 'npx sass Tailspin.SpaceGame.Web/wwwroot:Tailspin.SpaceGame.Web/wwwroot'
-  displayName: 'Compile Sass assets'
+  displayName: 'Compile Sass asset'
 
 - task: gulp@1
   displayName: 'Run gulp tasks'
