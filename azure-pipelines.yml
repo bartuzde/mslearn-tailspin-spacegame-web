@@ -38,6 +38,7 @@ steps:
     command: 'build'
     arguments: '--no-restore --configuration Release'
     projects: '**/*.csproj'
+    verbosityRestore: 'Detailed'
 
 - task: DotNetCoreCLI@2
   displayName: 'Publish the project - Release'
